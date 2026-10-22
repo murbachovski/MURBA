@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "MURBA — El coreano que la gente habla de verdad",
+    "description": "Practica coreano cotidiano, frases de K-dramas y expresiones de viaje con un tutor paciente. Gratis para empezar."
+  },
+  "nav": {
+    "tutor": "Tutor",
+    "phrases": "Frases",
+    "pricing": "Precios",
+    "start": "Empieza a hablar"
+  },
+  "home": {
+    "eyebrow": "No. 01 — Coreano de todos los días",
+    "title": "Aprende el coreano que la gente usa de verdad.",
+    "lead": "No el del libro de texto. El que oyes en la caja de una tienda 24 horas a las dos de la mañana, en plena confesión de un drama, o cuando la madre de un amigo te pregunta si ya comiste.",
+    "cta": "Prueba una conversación",
+    "ctaNote": "Gratis. Por ahora, sin registro.",
+    "phraseLabel": "Frase del día",
+    "phrase": {
+      "ko": "밥 먹었어?",
+      "roman": "bap meogeosseo?",
+      "literal": "Literal: «¿Comiste arroz?»",
+      "meaning": "Lo que significa de verdad: «¿Qué tal estás?»",
+      "note": "Nadie está revisando tu dieta. Responde «응, 먹었어» (sí, ya comí) aunque no sea cierto, y devuelve la pregunta."
+    },
+    "howTitle": "Cómo funciona",
+    "how": [
+      {
+        "title": "Elige una situación",
+        "body": "Charla diaria, frases de un drama o moverte por Seúl. Cada una cambia en qué se fija el tutor."
+      },
+      {
+        "title": "Escribe sin miedo",
+        "body": "En español, en coreano o mezclando los dos. Equivocarse es la idea. Te devolvemos la versión natural, con romanización."
+      },
+      {
+        "title": "Quédate con lo bueno",
+        "body": "Cada respuesta termina con una frase corta que vale la pena recordar. Lo justo para usarla mañana."
+      }
+    ],
+    "modesTitle": "Tres lugares para empezar",
+    "modes": [
+      {
+        "ko": "일상",
+        "name": "Día a día",
+        "body": "Saludos, charla ligera y contestar a un amigo coreano sin sonar como un robot."
+      },
+      {
+        "ko": "드라마",
+        "name": "Dramas y canciones",
+        "body": "Pega una frase que escuchaste. Descubre qué significa, qué tan formal es y cuándo podrías usarla."
+      },
+      {
+        "ko": "여행",
+        "name": "Viajes",
+        "body": "Pedir comida, tomar un taxi, preguntar direcciones y la frase que te salva en una farmacia."
+      }
+    ],
+    "noteTitle": "Una nota breve",
+    "noteBody": "MURBA es un proyecto pequeño e independiente hecho en Corea. Lo creamos porque la mayoría de las apps enseñan un coreano que suena rígido al decirlo en voz alta. El tutor funciona con un modelo de IA y a veces se equivoca. Si algo suena raro, pregunta otra vez o confírmalo con un hablante nativo. Ese hábito te enseñará más que cualquier app.",
+    "closingTitle": "Cinco minutos al día bastan.",
+    "closingCta": "Abrir el tutor"
+  },
+  "tutor": {
+    "title": "Tutor",
+    "lead": "Elige una situación y escribe lo que se te ocurra.",
+    "modes": {
+      "daily": "Día a día",
+      "drama": "Dramas y canciones",
+      "travel": "Viajes"
+    },
+    "starters": {
+      "daily": ["¿Cómo digo «cuánto tiempo» a un amigo?", "¿Es grosero decir 너?", "Ayúdame a responder: 뭐 해?"],
+      "drama": ["¿Qué significa de verdad 보고 싶어?", "¿Por qué dicen tanto 오빠?", "Explícame 괜찮아, 괜찮아"],
+      "travel": ["¿Cómo pido un americano con hielo?", "Dile al taxista: a la estación de Hongdae, por favor", "Me duele la cabeza. ¿Qué digo en la farmacia?"]
+    },
+    "emptyTitle": "Todavía no hay nada.",
+    "emptyBody": "Prueba una de estas o pregunta lo tuyo:",
+    "placeholder": "Escribe en español o en coreano…",
+    "send": "Enviar",
+    "you": "Tú",
+    "tutorName": "Tutor",
+    "writing": "escribiendo…",
+    "newChat": "Empezar de nuevo",
+    "errors": {
+      "generic": "Algo falló de nuestro lado. Inténtalo de nuevo en un momento.",
+      "limit": "Llegaste al límite gratuito de hoy. Vuelve mañana o mira lo que incluirá Pro.",
+      "unavailable": "El tutor está descansando ahora mismo. Vuelve en un rato.",
+      "refusal": "El tutor no puede ayudar con eso. Prueba a preguntarlo de otra forma."
+    },
+    "disclaimer": "Las respuestas vienen de un modelo de IA y pueden tener errores."
+  },
+  "phrases": {
+    "title": "Notas de frases",
+    "lead": "Notas cortas sobre expresiones coreanas que vas a escuchar de verdad, escritas a mano, una por una. Cada una termina con algo que puedes decir hoy.",
+    "read": "Leer la nota",
+    "back": "Todas las notas",
+    "examplesTitle": "Cómo se oye en la calle",
+    "tipTitle": "Dilo hoy",
+    "tryIt": "Practícalo con el tutor",
+    "languageNote": "Estas notas están escritas en inglés."
+  },
+  "pricing": {
+    "title": "Precios",
+    "lead": "Empieza gratis. Paga solo si MURBA se vuelve parte de tu día.",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "per": "para siempre",
+      "features": ["20 mensajes al día", "Las tres situaciones", "Romanización en cada respuesta"],
+      "cta": "Empezar ahora"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$6",
+      "per": "al mes",
+      "features": ["Practica todo lo que quieras (uso justo)", "Sin anuncios", "Un cuaderno que guarda tus frases", "Repaso semanal"],
+      "cta": "Muy pronto",
+      "badge": "Aún no disponible"
+    },
+    "faqTitle": "Preguntas",
+    "faq": [
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "Por ahora no. La versión gratuita funciona al instante. Las cuentas llegarán con Pro, para que tu cuaderno te siga entre dispositivos."
+      },
+      {
+        "q": "¿Por qué hay anuncios?",
+        "a": "Los anuncios mantienen gratis la versión gratuita. Nunca los ponemos dentro de la conversación, y Pro los quitará."
+      },
+      {
+        "q": "¿Siempre acierta?",
+        "a": "No. Es un buen compañero de práctica, no un diccionario. Para algo importante, confírmalo con un hablante nativo."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "updated": "Última actualización: octubre de 2026",
+    "sections": [
+      {
+        "h": "Qué recopilamos",
+        "p": "Cuando usas el tutor, los mensajes que escribes se envían a nuestro servidor y a nuestro proveedor de IA para generar una respuesta. No pedimos tu nombre ni tu correo, y no guardamos el historial de tus conversaciones en nuestros servidores."
+      },
+      {
+        "h": "Cookies",
+        "p": "Usamos una pequeña cookie para contar tus mensajes gratuitos del día. Nuestro socio publicitario, Google AdSense, puede usar cookies para mostrar y medir anuncios. Puedes ver cómo Google usa estos datos en policies.google.com/technologies/partner-sites."
+      },
+      {
+        "h": "Anuncios",
+        "p": "Proveedores externos, incluido Google, usan cookies para mostrar anuncios según tus visitas anteriores a este y otros sitios web. Puedes desactivar la publicidad personalizada en adssettings.google.com."
+      },
+      {
+        "h": "Contacto",
+        "p": "¿Dudas sobre tus datos o quieres que borremos algo? Escríbenos y te responderemos lo antes posible."
+      }
+    ]
+  },
+  "ads": {
+    "label": "Publicidad"
+  },
+  "footer": {
+    "line": "Hecho con calma, en Corea.",
+    "privacy": "Privacidad"
+  }
+}

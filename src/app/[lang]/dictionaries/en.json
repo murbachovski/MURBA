@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "MURBA — Korean the way people actually talk",
+    "description": "Practice everyday Korean, K-drama lines and travel phrases with a patient tutor. Free to start, no textbook voice."
+  },
+  "nav": {
+    "tutor": "Tutor",
+    "phrases": "Phrases",
+    "pricing": "Pricing",
+    "start": "Start talking"
+  },
+  "home": {
+    "eyebrow": "No. 01 — Everyday Korean",
+    "title": "Learn the Korean people actually speak.",
+    "lead": "Not the textbook kind. The Korean you hear at a convenience store counter at 2 a.m., in the middle of a drama confession, or from a friend's mom asking if you've eaten yet.",
+    "cta": "Try a conversation",
+    "ctaNote": "Free. No sign-up for now.",
+    "phraseLabel": "Phrase of the day",
+    "phrase": {
+      "ko": "밥 먹었어?",
+      "roman": "bap meogeosseo?",
+      "literal": "Literally: “Did you eat rice?”",
+      "meaning": "What it really means: “Hey, how are you?”",
+      "note": "Nobody is checking your meal plan. Answer “응, 먹었어” (yeah, I ate) even if you didn't, and ask it back."
+    },
+    "howTitle": "How it works",
+    "how": [
+      {
+        "title": "Pick a situation",
+        "body": "Daily chat, lines from a drama, or getting around Seoul. Each one changes what the tutor focuses on."
+      },
+      {
+        "title": "Just type",
+        "body": "Write in English, in Korean, or a messy mix of both. Mistakes are the point. You'll get the natural version back, with romanization."
+      },
+      {
+        "title": "Keep the good bits",
+        "body": "Every answer ends with one short phrase worth remembering. Small enough to actually use tomorrow."
+      }
+    ],
+    "modesTitle": "Three places to start",
+    "modes": [
+      {
+        "ko": "일상",
+        "name": "Everyday talk",
+        "body": "Greetings, small talk, texting a Korean friend without sounding like a robot."
+      },
+      {
+        "ko": "드라마",
+        "name": "Drama & songs",
+        "body": "Paste a line you heard. Find out what it means, how polite it is, and when you could say it."
+      },
+      {
+        "ko": "여행",
+        "name": "Travel",
+        "body": "Ordering, taxis, asking for directions, and the one sentence that saves you at a pharmacy."
+      }
+    ],
+    "noteTitle": "A short note",
+    "noteBody": "MURBA is a small, independent project made in Korea. We built it because most apps teach Korean that sounds stiff out loud. The tutor runs on an AI model, and it can be wrong now and then. When something sounds off, ask it again or check with a native speaker. That habit will teach you more than any app.",
+    "closingTitle": "Five minutes a day is plenty.",
+    "closingCta": "Open the tutor"
+  },
+  "tutor": {
+    "title": "Tutor",
+    "lead": "Pick a situation, then write whatever comes to mind.",
+    "modes": {
+      "daily": "Everyday",
+      "drama": "Drama & songs",
+      "travel": "Travel"
+    },
+    "starters": {
+      "daily": [
+        "How do I say “long time no see” to a friend?",
+        "Is 너 rude?",
+        "Help me reply to: 뭐 해?"
+      ],
+      "drama": [
+        "What does 보고 싶어 really mean?",
+        "Why do they say 오빠 so much?",
+        "Explain 괜찮아, 괜찮아"
+      ],
+      "travel": [
+        "How do I order an iced americano?",
+        "Tell a taxi driver: Hongdae station, please",
+        "I have a headache. What do I say at a pharmacy?"
+      ]
+    },
+    "emptyTitle": "Nothing here yet.",
+    "emptyBody": "Try one of these, or ask your own:",
+    "placeholder": "Type in English or Korean…",
+    "send": "Send",
+    "you": "You",
+    "tutorName": "Tutor",
+    "writing": "writing…",
+    "newChat": "Start over",
+    "errors": {
+      "generic": "Something went wrong on our end. Please try again in a moment.",
+      "limit": "That's today's free limit. Come back tomorrow, or see what Pro will include.",
+      "unavailable": "The tutor is taking a break right now. Please check back soon.",
+      "refusal": "The tutor can't help with that one. Try asking a different way."
+    },
+    "disclaimer": "Answers come from an AI model and can contain mistakes."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "lead": "Start free. Pay only if MURBA becomes part of your day.",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "per": "forever",
+      "features": [
+        "20 messages a day",
+        "All three situations",
+        "Romanization on every answer"
+      ],
+      "cta": "Start now"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$6",
+      "per": "per month",
+      "features": [
+        "Practice as much as you like (fair use)",
+        "No ads",
+        "A notebook that saves your phrases",
+        "Weekly review of what you learned"
+      ],
+      "cta": "Opening soon",
+      "badge": "Not open yet"
+    },
+    "faqTitle": "Questions",
+    "faq": [
+      {
+        "q": "Do I need an account?",
+        "a": "Not right now. Free use works straight away. Accounts will come with Pro, so your notebook can follow you between devices."
+      },
+      {
+        "q": "Why are there ads?",
+        "a": "Ads keep the free version free. We keep them out of the conversation itself, and Pro will remove them."
+      },
+      {
+        "q": "Is it right every time?",
+        "a": "No. It's a good practice partner, not a dictionary. For anything important, double-check with a native speaker."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy",
+    "updated": "Last updated: October 2026",
+    "sections": [
+      {
+        "h": "What we collect",
+        "p": "When you use the tutor, the messages you type are sent to our server and to our AI provider to generate a reply. We don't ask for your name or email, and we don't keep a history of your chats on our servers."
+      },
+      {
+        "h": "Cookies",
+        "p": "We use a small cookie to count your free messages for the day. Our advertising partner, Google AdSense, may use cookies to show ads and measure them. You can learn how Google uses this data at policies.google.com/technologies/partner-sites."
+      },
+      {
+        "h": "Ads",
+        "p": "Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. You can opt out of personalized advertising at adssettings.google.com."
+      },
+      {
+        "h": "Contact",
+        "p": "Questions about your data, or want something removed? Write to us and we'll reply as soon as we can."
+      }
+    ]
+  },
+  "ads": {
+    "label": "Advertisement"
+  },
+  "footer": {
+    "line": "Made slowly, in Korea.",
+    "privacy": "Privacy"
+  },
+  "phrases": {
+    "title": "Phrase notes",
+    "lead": "Short notes on Korean expressions you'll actually hear, written by hand, one at a time. Each one ends with something you can say today.",
+    "read": "Read the note",
+    "back": "All phrase notes",
+    "examplesTitle": "Heard in the wild",
+    "tipTitle": "Say it today",
+    "tryIt": "Practice this with the tutor",
+    "languageNote": "These notes are written in English."
+  }
+}
