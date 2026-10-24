@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Paper and ink. One warm accent borrowed from dancheong red, one quiet pine green. */
+:root {
+  --paper: #f5f0e6;
+  --paper-deep: #ece4d4;
+  --ink: #1f1c18;
+  --ink-soft: #5a534a;
+  --rule: #d6ccb8;
+  --accent: #b8432a;
+  --pine: #2f5a4c;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-pine: var(--pine);
+  --font-sans: var(--font-body), "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-serif: var(--font-display), "AppleMyungjo", "Batang", Georgia, serif;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #f1c9b8;
+  color: var(--ink);
+}
+
+/* Links that look like someone underlined them with a pen. */
+.ink-link {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+.ink-link:hover {
+  color: var(--accent);
+}
+
+.label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.marker {
+  background: linear-gradient(transparent 58%, #f3d27a 58%, #f3d27a 88%, transparent 88%);
+  padding: 0 0.1em;
+}
