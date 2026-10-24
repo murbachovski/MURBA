@@ -158,6 +158,10 @@
         "p": "We use a small cookie to count your free messages for the day. Our advertising partner, Google AdSense, may use cookies to show ads and measure them. You can learn how Google uses this data at policies.google.com/technologies/partner-sites."
       },
       {
+        "h": "Visitor statistics",
+        "p": "We count page views with Vercel Web Analytics to see which pages people find useful. It doesn't use cookies and doesn't identify you."
+      },
+      {
         "h": "Ads",
         "p": "Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this and other websites. You can opt out of personalized advertising at adssettings.google.com."
       },
