@@ -9,7 +9,10 @@ export function SiteFooter({ lang, footer }: { lang: string; footer: Dictionary[
         <p>
           <span className="font-serif text-ink">MURBA</span> — {footer.line}
         </p>
-        <span className="flex gap-6">
+        <span className="flex flex-wrap gap-x-6 gap-y-2">
+          <Link href={`/${lang}/pricing`} className="ink-link">
+            {footer.pricing}
+          </Link>
           {supportUrl && (
             <a href={supportUrl} target="_blank" rel="noopener" className="ink-link">
               {footer.support}

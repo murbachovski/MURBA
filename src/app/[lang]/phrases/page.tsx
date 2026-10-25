@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getDictionary } from "../dictionaries";
 import { pageAlternates } from "@/lib/i18n";
 import { phraseNotes } from "@/content/phrases";
+import { PhrasebookOffer } from "@/components/phrasebook-offer";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/phrases">): Promise<Metadata> {
   const { lang } = await params;
@@ -41,6 +42,8 @@ export default async function PhrasesPage({ params }: PageProps<"/[lang]/phrases
           </li>
         ))}
       </ol>
+
+      <PhrasebookOffer t={dict.shop} />
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { pageAlternates } from "@/lib/i18n";
 import { adSlots } from "@/lib/ads";
 import { AdSlot } from "@/components/ad-slot";
 import { TutorChat, TutorChatWithAsk } from "@/components/tutor-chat";
+import { PhrasebookOffer } from "@/components/phrasebook-offer";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/tutor">): Promise<Metadata> {
   const { lang } = await params;
@@ -30,6 +31,7 @@ export default async function TutorPage({ params }: PageProps<"/[lang]/tutor">) 
       </Suspense>
       {/* Ads sit below the conversation, never inside it. */}
       <AdSlot slot={adSlots.tutor} label={dict.ads.label} />
+      <PhrasebookOffer t={dict.shop} />
     </div>
   );
 }

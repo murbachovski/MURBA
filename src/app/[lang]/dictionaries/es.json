@@ -8,7 +8,8 @@
     "phrases": "Frases",
     "pricing": "Precios",
     "start": "Empieza a hablar",
-    "play": "Juegos"
+    "play": "Juegos",
+    "community": "Comunidad"
   },
   "home": {
     "eyebrow": "No. 01 — Coreano de todos los días",
@@ -191,7 +192,8 @@
   "footer": {
     "line": "Hecho con calma, en Corea.",
     "privacy": "Privacidad",
-    "support": "Apoya MURBA"
+    "support": "Apoya MURBA",
+    "pricing": "Precios"
   },
   "play": {
     "title": "Juegos",
@@ -226,5 +228,44 @@
       "again": "Jugar otra vez",
       "hint": "Significa:"
     }
+  },
+  "community": {
+    "title": "Comunidad",
+    "lead": "Un lugar pequeño y amable para practicar con otros estudiantes y algunos hablantes nativos. Está en Discord, así que funciona en cualquier móvil.",
+    "join": "Unirme en Discord",
+    "soon": "Abrimos pronto. Vuelve en unos días.",
+    "channelsTitle": "Qué hay dentro",
+    "channels": [
+      {
+        "name": "#daily-five",
+        "body": "Publica tu resultado de Cinco del día y compáralo con los demás."
+      },
+      {
+        "name": "#questions",
+        "body": "Pregunta lo que quieras sobre el coreano. Ninguna pregunta es demasiado pequeña."
+      },
+      {
+        "name": "#drama-lines",
+        "body": "Comparte una frase que escuchaste y descubran juntos qué significa."
+      },
+      {
+        "name": "#language-exchange",
+        "body": "Encuentra un compañero: tú ayudas con tu idioma y él te ayuda con el coreano."
+      }
+    ],
+    "rulesTitle": "Normas de la casa",
+    "rules": [
+      "Sé amable. Todos aquí fuimos principiantes alguna vez.",
+      "Corrige con suavidad y explica por qué.",
+      "Nada de spam, ventas ni odio.",
+      "Habla de aprender, de cultura y de la vida diaria en Corea."
+    ]
+  },
+  "shop": {
+    "label": "Libro de frases (PDF)",
+    "title": "Coreano de viaje, en tu bolsillo",
+    "body": "78 frases para cafeterías, taxis, el metro, tiendas, farmacias y hoteles, cada una con romanización y una nota sobre cuándo usarla, más una página sobre los números. Un PDF de 20 páginas para llevar en el móvil, incluso sin conexión.",
+    "price": "$5",
+    "cta": "Conseguir el libro de frases"
   }
 }
