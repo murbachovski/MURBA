@@ -141,6 +141,140 @@ export const phraseNotes: PhraseNote[] = [
       { ko: "아이고, 고생 많았네.", roman: "aigo, gosaeng manatne.", en: "Oh no, you've been through a lot." }
     ],
     tip: "The next time you stand up after sitting on the floor, try “아이고” out loud. Nobody will blink."
+  },
+  {
+    slug: "annyeonghi-gaseyo",
+    ko: "안녕히 가세요",
+    roman: "annyeonghi gaseyo",
+    gist: "Two goodbyes — one for whoever leaves, one for whoever stays.",
+    body: [
+      "Korean has two polite goodbyes, and which one you use depends on who is walking away. 안녕히 가세요 means “go in peace.” You say it to the person leaving. 안녕히 계세요 means “stay in peace.” You say it when you are the one leaving.",
+      "So when you walk out of a shop, you say 안녕히 계세요 to the staff, and they answer 안녕히 가세요. If both of you are leaving in different directions, 안녕히 가세요 works for both.",
+      "Among friends, all of this shrinks to 잘 가 (bye) or 들어가 — literally “go in,” a warm way of saying get home safe, often heard at the end of a phone call."
+    ],
+    examples: [
+      { ko: "감사합니다. 안녕히 계세요!", roman: "gamsahamnida. annyeonghi gyeseyo!", en: "Thank you. Goodbye! (you're leaving)" },
+      { ko: "네, 안녕히 가세요.", roman: "ne, annyeonghi gaseyo.", en: "Okay, goodbye. (they're leaving)" },
+      { ko: "조심히 들어가!", roman: "josimhi deureoga!", en: "Get home safe!" }
+    ],
+    tip: "Leaving a shop or a restaurant? It's “안녕히 계세요” — you're the one going."
+  },
+  {
+    slug: "hwaiting",
+    ko: "화이팅",
+    roman: "hwaiting",
+    gist: "“Fighting!” — the cheer that has nothing to do with fighting.",
+    body: [
+      "화이팅 comes from the English word “fighting,” but it means you can do it, good luck, go for it. You'll hear it before exams, job interviews, sports matches and Monday mornings.",
+      "You'll also see it spelled 파이팅, which is the officially recommended spelling. Both are everywhere, and nobody will correct you either way.",
+      "It works almost anywhere. Shout it at a friend, end a work message with 오늘도 화이팅하세요, or say it quietly to yourself before something scary."
+    ],
+    examples: [
+      { ko: "시험 잘 봐! 화이팅!", roman: "siheom jal bwa! hwaiting!", en: "Good luck on the exam! You've got this!" },
+      { ko: "우리 팀 화이팅!", roman: "uri tim hwaiting!", en: "Go team!" },
+      { ko: "오늘도 화이팅하세요.", roman: "oneuldo hwaitinghaseyo.", en: "Have a good one today. (polite sign-off)" }
+    ],
+    tip: "End your next message to a Korean friend with “화이팅!” before their big day."
+  },
+  {
+    slug: "jinjja",
+    ko: "진짜",
+    roman: "jinjja",
+    gist: "Really, real, seriously — the word that fills every pause.",
+    body: [
+      "진짜 means real or really, and Koreans use it constantly. As a question, 진짜? is “really?” As an adverb, it turns up the volume on whatever comes next: 진짜 맛있어, really delicious.",
+      "Its more formal sibling is 정말. In writing, speeches and polite talk with older people, 정말 sounds a little more careful. Among friends, 진짜 wins every time.",
+      "Add 요 and it becomes polite: 진짜요? is how you'd answer surprising news from a coworker."
+    ],
+    examples: [
+      { ko: "진짜? 대박.", roman: "jinjja? daebak.", en: "Really? No way." },
+      { ko: "이거 진짜 맛있어요.", roman: "igeo jinjja masisseoyo.", en: "This is really good." },
+      { ko: "진짜요? 몰랐어요.", roman: "jinjjayo? mollasseoyo.", en: "Really? I didn't know." }
+    ],
+    tip: "Next time you're surprised, skip “really?” and say “진짜?” instead."
+  },
+  {
+    slug: "oppa",
+    ko: "오빠",
+    roman: "oppa",
+    gist: "Older brother — and the four words Koreans use instead of names.",
+    body: [
+      "Koreans often call people older than them by a family word instead of their name. Which word depends on both your gender and theirs.",
+      "A woman calls an older man 오빠 and an older woman 언니. A man calls an older man 형 and an older woman 누나. These are used for real siblings, close friends, boyfriends and girlfriends, and — yes — for idols by their fans.",
+      "Using them is a sign of closeness. With someone you've just met, wait until they suggest it, or until you've had a meal or two together."
+    ],
+    examples: [
+      { ko: "오빠, 이거 먹어.", roman: "oppa, igeo meogeo.", en: "Oppa, have this. (a woman to an older man)" },
+      { ko: "형, 어디야?", roman: "hyeong, eodiya?", en: "Where are you? (a man to an older man)" },
+      { ko: "언니, 같이 가요!", roman: "eonni, gachi gayo!", en: "Let's go together! (a woman to an older woman)" }
+    ],
+    tip: "Listen for 오빠, 언니, 형 and 누나 in the next drama you watch. Notice who says which word to whom."
+  },
+  {
+    slug: "jamkkanmanyo",
+    ko: "잠깐만요",
+    roman: "jamkkanmanyo",
+    gist: "Just a moment — and how to get off a packed subway.",
+    body: [
+      "잠깐 means a short moment. 잠깐만요 is “just a moment, please,” and you'll use it when you need someone to wait while you find your card or answer a call.",
+      "It has a second life on crowded trains and buses. Said while gently squeezing past people, 잠깐만요 means excuse me, coming through. Add 내릴게요 (I'm getting off) and people will make room.",
+      "잠시만요 means the same thing and sounds slightly more polite. You'll hear staff say 잠시만 기다려 주세요, please wait a moment."
+    ],
+    examples: [
+      { ko: "잠깐만요, 내릴게요!", roman: "jamkkanmanyo, naerilgeyo!", en: "Excuse me, I'm getting off!" },
+      { ko: "잠시만 기다려 주세요.", roman: "jamsiman gidaryeo juseyo.", en: "Please wait a moment." }
+    ],
+    tip: "Keep “잠깐만요, 내릴게요” ready for your next rush-hour ride in Seoul."
+  },
+  {
+    slug: "eotteokae",
+    ko: "어떡해",
+    roman: "eotteokae",
+    gist: "Oh no, what do I do — and, oddly, “this is too cute.”",
+    body: [
+      "어떡해 is a shortened 어떻게 해, “what do I do?” It's what slips out when you miss the last train, spill coffee on a white shirt, or realize your phone is at home.",
+      "It also covers sympathy. When a friend tells you bad news, a soft 어떡해… means oh no, I'm so sorry.",
+      "And then there's the happy version. Faced with a puppy or a baby in a tiny hat, people say 어떡해, 너무 귀여워 — what do I do, it's too cute. Spelling note: even Koreans sometimes write 어떻해 by mistake. The correct form is 어떡해."
+    ],
+    examples: [
+      { ko: "어떡해, 지갑을 잃어버렸어.", roman: "eotteokae, jigabeul ireobeoryeosseo.", en: "Oh no, I lost my wallet." },
+      { ko: "어떡하지?", roman: "eotteokaji?", en: "What should I do?" },
+      { ko: "어떡해… 너무 귀여워.", roman: "eotteokae... neomu gwiyeowo.", en: "Oh my gosh… it's so cute." }
+    ],
+    tip: "The next time something goes wrong, try “어떡해” instead of the word you were about to say."
+  },
+  {
+    slug: "heol",
+    ko: "헐",
+    roman: "heol",
+    gist: "The one-syllable gasp of the internet age.",
+    body: [
+      "헐 is pure reaction. Surprise, disbelief, mild horror — it covers them all in one short breath. It started as internet slang and moved into everyday speech.",
+      "It pairs naturally with other reaction words: 헐, 진짜? or 헐, 대박. Stretch it out — 허얼 — when the news is really something.",
+      "Keep it for friends and group chats. Said to your boss after hearing about a deadline, it lands a little too honest."
+    ],
+    examples: [
+      { ko: "헐, 진짜?", roman: "heol, jinjja?", en: "Whoa, seriously?" },
+      { ko: "헐… 벌써 열두 시야?", roman: "heol... beolsseo yeoldu siya?", en: "Wait… it's already twelve?" }
+    ],
+    tip: "Reply “헐” to the next surprising message in your group chat. One syllable is enough."
+  },
+  {
+    slug: "geonbae",
+    ko: "건배",
+    roman: "geonbae",
+    gist: "Cheers — plus the small manners that come with a Korean drink.",
+    body: [
+      "건배 is the standard toast, the word you say as glasses meet. Among friends you'll more often hear 짠, which is just the sound of the clink.",
+      "A few manners go with it. When someone older pours for you, hold your glass with both hands. When you drink in front of someone much older, turn your head slightly away. And don't pour your own glass — fill someone else's, and they'll fill yours.",
+      "At company dinners someone may lead a longer toast and the table answers together, often with 위하여! — “to that!”"
+    ],
+    examples: [
+      { ko: "건배!", roman: "geonbae!", en: "Cheers!" },
+      { ko: "짠!", roman: "jjan!", en: "Cheers! (casual, the clink sound)" },
+      { ko: "우리의 새 출발을 위하여!", roman: "uriui sae chulbareul wihayeo!", en: "To our new start!" }
+    ],
+    tip: "At your next Korean dinner, fill a friend's glass before your own and say “짠!”"
   }
 ];
 

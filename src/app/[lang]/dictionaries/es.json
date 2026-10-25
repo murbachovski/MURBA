@@ -70,9 +70,21 @@
       "travel": "Viajes"
     },
     "starters": {
-      "daily": ["¿Cómo digo «cuánto tiempo» a un amigo?", "¿Es grosero decir 너?", "Ayúdame a responder: 뭐 해?"],
-      "drama": ["¿Qué significa de verdad 보고 싶어?", "¿Por qué dicen tanto 오빠?", "Explícame 괜찮아, 괜찮아"],
-      "travel": ["¿Cómo pido un americano con hielo?", "Dile al taxista: a la estación de Hongdae, por favor", "Me duele la cabeza. ¿Qué digo en la farmacia?"]
+      "daily": [
+        "¿Cómo digo «cuánto tiempo» a un amigo?",
+        "¿Es grosero decir 너?",
+        "Ayúdame a responder: 뭐 해?"
+      ],
+      "drama": [
+        "¿Qué significa de verdad 보고 싶어?",
+        "¿Por qué dicen tanto 오빠?",
+        "Explícame 괜찮아, 괜찮아"
+      ],
+      "travel": [
+        "¿Cómo pido un americano con hielo?",
+        "Dile al taxista: a la estación de Hongdae, por favor",
+        "Me duele la cabeza. ¿Qué digo en la farmacia?"
+      ]
     },
     "emptyTitle": "Todavía no hay nada.",
     "emptyBody": "Prueba una de estas o pregunta lo tuyo:",
@@ -107,14 +119,23 @@
       "name": "Free",
       "price": "$0",
       "per": "para siempre",
-      "features": ["20 mensajes al día", "Las tres situaciones", "Romanización en cada respuesta"],
+      "features": [
+        "20 mensajes al día",
+        "Las tres situaciones",
+        "Romanización en cada respuesta"
+      ],
       "cta": "Empezar ahora"
     },
     "pro": {
       "name": "Pro",
       "price": "$6",
       "per": "al mes",
-      "features": ["Practica todo lo que quieras (uso justo)", "Sin anuncios", "Un cuaderno que guarda tus frases", "Repaso semanal"],
+      "features": [
+        "Practica todo lo que quieras (uso justo)",
+        "Sin anuncios",
+        "Un cuaderno que guarda tus frases",
+        "Repaso semanal"
+      ],
       "cta": "Muy pronto",
       "badge": "Aún no disponible"
     },
@@ -145,6 +166,10 @@
       {
         "h": "Cookies",
         "p": "Usamos una pequeña cookie para contar tus mensajes gratuitos del día. Nuestro socio publicitario, Google AdSense, puede usar cookies para mostrar y medir anuncios. Puedes ver cómo Google usa estos datos en policies.google.com/technologies/partner-sites."
+      },
+      {
+        "h": "Estadísticas de visitas",
+        "p": "Contamos las visitas con Vercel Web Analytics para saber qué páginas resultan útiles. No usa cookies ni te identifica."
       },
       {
         "h": "Anuncios",

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Gowun_Batang, IBM_Plex_Sans_KR } from "next/font/google";
+import { Suspense } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import { getDictionary } from "./dictionaries";
 import { locales, pageAlternates } from "@/lib/i18n";
@@ -65,6 +67,10 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <SiteHeader lang={lang} nav={dict.nav} />
         <main className="flex-1">{children}</main>
         <SiteFooter lang={lang} footer={dict.footer} />
+        {/* Cookieless page-view counts; switch on under Analytics in the Vercel dashboard. */}
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
       </body>
     </html>
   );
