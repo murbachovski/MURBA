@@ -110,7 +110,10 @@
     "examplesTitle": "Cómo se oye en la calle",
     "tipTitle": "Dilo hoy",
     "tryIt": "Practícalo con el tutor",
-    "languageNote": "Estas notas están escritas en inglés."
+    "languageNote": "Estas notas están escritas en inglés.",
+    "share": "Compartir esta nota",
+    "copied": "Enlace copiado",
+    "askTemplate": "¿Cómo uso «{ko}» de forma natural? Dame una situación para practicar."
   },
   "pricing": {
     "title": "Precios",

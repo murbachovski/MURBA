@@ -44,6 +44,10 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
       type: "website",
     },
     other: adsEnabled ? { "google-adsense-account": adsenseClient } : {},
+    // Google Search Console's HTML-tag check: paste just the content="…" value into this env var.
+    verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+      ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+      : undefined,
   };
 }
 

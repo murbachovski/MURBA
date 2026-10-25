@@ -1,24 +1,30 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import { ERROR_MARK, REFUSAL_MARK, tutorModes, type ChatTurn, type TutorMode } from "@/lib/tutor";
 
 type Notice = keyof Dictionary["tutor"]["errors"];
 
-export function TutorChat({
-  lang,
-  t,
-  pricingHref,
-}: {
+type TutorChatProps = {
   lang: string;
   t: Dictionary["tutor"];
   pricingHref: string;
-}) {
+};
+
+// A phrase note can open the tutor with a question ready (?ask=…). It's filled in, not sent,
+// so the learner decides what to spend their free messages on.
+export function TutorChatWithAsk(props: TutorChatProps) {
+  const ask = useSearchParams().get("ask") ?? "";
+  return <TutorChat {...props} initialDraft={ask.slice(0, 1500)} />;
+}
+
+export function TutorChat({ lang, t, pricingHref, initialDraft = "" }: TutorChatProps & { initialDraft?: string }) {
   const [mode, setMode] = useState<TutorMode>("daily");
   const [turns, setTurns] = useState<ChatTurn[]>([]);
-  const [draft, setDraft] = useState("");
+  const [draft, setDraft] = useState(initialDraft);
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState<Notice | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
