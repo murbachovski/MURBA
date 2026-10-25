@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
+import { supportUrl } from "@/lib/money";
 
 export function SiteFooter({ lang, footer }: { lang: string; footer: Dictionary["footer"] }) {
   return (
@@ -8,9 +9,16 @@ export function SiteFooter({ lang, footer }: { lang: string; footer: Dictionary[
         <p>
           <span className="font-serif text-ink">MURBA</span> — {footer.line}
         </p>
-        <Link href={`/${lang}/privacy`} className="ink-link">
-          {footer.privacy}
-        </Link>
+        <span className="flex gap-6">
+          {supportUrl && (
+            <a href={supportUrl} target="_blank" rel="noopener" className="ink-link">
+              {footer.support}
+            </a>
+          )}
+          <Link href={`/${lang}/privacy`} className="ink-link">
+            {footer.privacy}
+          </Link>
+        </span>
       </div>
     </footer>
   );

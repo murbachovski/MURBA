@@ -7,7 +7,8 @@
     "tutor": "Tutor",
     "phrases": "Phrases",
     "pricing": "Pricing",
-    "start": "Start talking"
+    "start": "Start talking",
+    "play": "Play"
   },
   "home": {
     "eyebrow": "No. 01 — Everyday Korean",
@@ -176,7 +177,8 @@
   },
   "footer": {
     "line": "Made slowly, in Korea.",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "support": "Support MURBA"
   },
   "phrases": {
     "title": "Phrase notes",
@@ -190,5 +192,39 @@
     "share": "Share this note",
     "copied": "Link copied",
     "askTemplate": "How do I use “{ko}” naturally? Give me a situation to practice."
+  },
+  "play": {
+    "title": "Play",
+    "lead": "Short games for the five minutes you have. No sign-up, nothing to install.",
+    "supportLine": "MURBA is free and made by a very small team. If it helps you, you can buy us a coffee.",
+    "daily": {
+      "name": "Daily five",
+      "blurb": "Five Korean expressions, the same for everyone today. Guess what each one really means.",
+      "cta": "Play today's five",
+      "question": "What does this really mean?",
+      "correct": "Right.",
+      "wrong": "Not quite. It means:",
+      "readNote": "Read the note",
+      "next": "Next",
+      "finish": "See my score",
+      "score": "You got {n} of 5.",
+      "streak": "Days in a row: {n}",
+      "share": "Share my result",
+      "copied": "Copied — paste it anywhere",
+      "comeBack": "New questions every day at 9:00 in Korea (midnight UTC).",
+      "doneToday": "You've already played today. Here's how it went."
+    },
+    "hangul": {
+      "name": "Hangul blocks",
+      "blurb": "Every Korean syllable is a little block of letters. Tap the pieces in order and build real words.",
+      "cta": "Start building",
+      "instructions": "Tap the letters in reading order: top-left, then right or below.",
+      "mistakes": "Wrong taps: {n}",
+      "next": "Next word",
+      "finish": "Finish",
+      "result": "{n} words built, {m} wrong taps.",
+      "again": "Play again",
+      "hint": "Means:"
+    }
   }
 }

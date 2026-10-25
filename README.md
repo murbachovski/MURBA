@@ -12,6 +12,7 @@
 |---|---|
 | `/[lang]` | 랜딩 페이지 |
 | `/[lang]/tutor` | AI 튜터 채팅 (Claude API, 스트리밍) |
+| `/[lang]/play` | 게임: 오늘의 다섯 문제(매일 같은 문제, 결과 공유·연속 기록), 한글 블록 |
 | `/[lang]/phrases` | 표현 노트 목록 · 상세 (`src/content/phrases.ts`) |
 | `/[lang]/pricing` | 요금 (Free / Pro 준비 중) |
 | `/[lang]/privacy` | 개인정보 처리방침 (AdSense 심사 필수) |
@@ -53,6 +54,11 @@ npm run dev                  # http://localhost:3000
 
 심사 팁: AdSense는 "가치가 낮은 콘텐츠"를 가장 많이 거절합니다. 표현 노트를 꾸준히 늘려 주세요.
 AI가 쓴 글을 그대로 올리기보다, 직접 경험과 예문을 덧붙여 손보는 것이 좋습니다.
+
+## 후원 링크 (바로 켤 수 있는 수익)
+
+Ko-fi, Buy Me a Coffee, Stripe Payment Link 중 하나를 만들고 그 주소를 Vercel 환경변수 `NEXT_PUBLIC_SUPPORT_URL`에 넣은 뒤 재배포하세요.
+푸터와 게임 페이지에 "MURBA 후원하기" 링크가 나타납니다. 비워 두면 보이지 않습니다.
 
 ## 방문자 통계
 

@@ -8,6 +8,7 @@ export const adSlots = {
   home: process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME ?? "",
   phrases: process.env.NEXT_PUBLIC_ADSENSE_SLOT_PHRASES ?? "",
   tutor: process.env.NEXT_PUBLIC_ADSENSE_SLOT_TUTOR ?? "",
+  play: process.env.NEXT_PUBLIC_ADSENSE_SLOT_PLAY ?? "",
 };
 
 export const adsEnabled = /^ca-pub-\d{10,20}$/.test(adsenseClient);
