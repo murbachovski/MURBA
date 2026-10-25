@@ -4,7 +4,7 @@ import { phraseNotes } from "@/content/phrases";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["", "/tutor", "/play", "/play/daily", "/play/hangul", "/phrases", "/pricing", "/privacy"].flatMap((path) =>
+  const pages = ["", "/tutor", "/play", "/play/daily", "/play/hangul", "/phrases", "/community", "/pricing", "/privacy"].flatMap((path) =>
     locales.map((lang) => ({
       url: `${siteUrl}/${lang}${path}`,
       alternates: { languages: Object.fromEntries(locales.map((l) => [l, `${siteUrl}/${l}${path}`])) },

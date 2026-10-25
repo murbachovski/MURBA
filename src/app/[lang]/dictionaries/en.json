@@ -8,7 +8,8 @@
     "phrases": "Phrases",
     "pricing": "Pricing",
     "start": "Start talking",
-    "play": "Play"
+    "play": "Play",
+    "community": "Community"
   },
   "home": {
     "eyebrow": "No. 01 — Everyday Korean",
@@ -178,7 +179,8 @@
   "footer": {
     "line": "Made slowly, in Korea.",
     "privacy": "Privacy",
-    "support": "Support MURBA"
+    "support": "Support MURBA",
+    "pricing": "Pricing"
   },
   "phrases": {
     "title": "Phrase notes",
@@ -226,5 +228,44 @@
       "again": "Play again",
       "hint": "Means:"
     }
+  },
+  "community": {
+    "title": "Community",
+    "lead": "A small, friendly place to practice with other learners and a few native speakers. It lives on Discord, so it works on any phone.",
+    "join": "Join on Discord",
+    "soon": "The doors open soon. Check back in a few days.",
+    "channelsTitle": "What's inside",
+    "channels": [
+      {
+        "name": "#daily-five",
+        "body": "Post your Daily five result and compare notes."
+      },
+      {
+        "name": "#questions",
+        "body": "Ask anything about Korean. No question is too small."
+      },
+      {
+        "name": "#drama-lines",
+        "body": "Share a line you heard and work out what it really means."
+      },
+      {
+        "name": "#language-exchange",
+        "body": "Find a partner: you help with your language, they help with Korean."
+      }
+    ],
+    "rulesTitle": "House rules",
+    "rules": [
+      "Be kind. Everyone here was a beginner once.",
+      "Correct gently, and explain why.",
+      "No spam, no selling, no hate.",
+      "Keep it about learning, culture and everyday life in Korea."
+    ]
+  },
+  "shop": {
+    "label": "Phrasebook (PDF)",
+    "title": "Travel Korean, in your pocket",
+    "body": "78 phrases for cafés, taxis, the subway, shops, pharmacies and hotels, each with romanization and a note on when to use it, plus a page on numbers. A 20-page PDF you can keep on your phone, even offline.",
+    "price": "$5",
+    "cta": "Get the phrasebook"
   }
 }

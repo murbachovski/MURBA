@@ -55,6 +55,29 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <p className="mt-5 max-w-2xl leading-relaxed text-ink-soft">{t.phrase.note}</p>
       </section>
 
+      {/* The daily habit: one dark band so today's game is the next thing the eye lands on. */}
+      <section className="mt-20 grid gap-8 bg-ink p-8 text-paper sm:p-12 md:grid-cols-[1fr_auto] md:items-end">
+        <div>
+          <p className="label text-[#e9a58f]">{dict.play.title}</p>
+          <h2 className="mt-3 font-serif text-3xl sm:text-4xl">{dict.play.daily.name}</h2>
+          <p className="mt-3 max-w-xl leading-relaxed text-[#d8d0c2]">{dict.play.daily.blurb}</p>
+          <p className="mt-6 font-serif text-2xl tracking-[0.5em] text-[#e9a58f]" aria-hidden>
+            ●●●●○
+          </p>
+        </div>
+        <div className="flex flex-col items-start gap-4 md:items-end">
+          <Link
+            href={`/${lang}/play/daily`}
+            className="bg-paper px-6 py-3 text-ink transition-colors hover:bg-accent hover:text-paper"
+          >
+            {dict.play.daily.cta} →
+          </Link>
+          <Link href={`/${lang}/play/hangul`} className="text-sm text-[#d8d0c2] underline underline-offset-4 hover:text-paper">
+            {dict.play.hangul.name} →
+          </Link>
+        </div>
+      </section>
+
       <section className="mt-24">
         <h2 className="font-serif text-3xl">{t.howTitle}</h2>
         <ol className="mt-8 grid gap-10 md:grid-cols-3">
@@ -115,9 +138,14 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
       <section className="mt-24 flex flex-wrap items-baseline justify-between gap-6 border-t border-ink pt-8">
         <p className="font-serif text-3xl">{t.closingTitle}</p>
-        <Link href={`/${lang}/tutor`} className="ink-link text-lg">
-          {t.closingCta} →
-        </Link>
+        <span className="flex flex-wrap gap-x-8 gap-y-3 text-lg">
+          <Link href={`/${lang}/tutor`} className="ink-link">
+            {t.closingCta} →
+          </Link>
+          <Link href={`/${lang}/community`} className="ink-link">
+            {dict.community.title} →
+          </Link>
+        </span>
       </section>
     </div>
   );

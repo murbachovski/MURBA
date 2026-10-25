@@ -14,6 +14,7 @@
 | `/[lang]/tutor` | AI 튜터 채팅 (Claude API, 스트리밍) |
 | `/[lang]/play` | 게임: 오늘의 다섯 문제(매일 같은 문제, 결과 공유·연속 기록), 한글 블록 |
 | `/[lang]/phrases` | 표현 노트 목록 · 상세 (`src/content/phrases.ts`) |
+| `/[lang]/community` | 디스코드 커뮤니티 안내 (초대 링크를 넣으면 참여 버튼이 생김) |
 | `/[lang]/pricing` | 요금 (Free / Pro 준비 중) |
 | `/[lang]/privacy` | 개인정보 처리방침 (AdSense 심사 필수) |
 | `/api/chat` | 튜터 API. 브라우저당 하루 무료 메시지 수 제한 |
@@ -59,6 +60,32 @@ AI가 쓴 글을 그대로 올리기보다, 직접 경험과 예문을 덧붙여
 
 Ko-fi, Buy Me a Coffee, Stripe Payment Link 중 하나를 만들고 그 주소를 Vercel 환경변수 `NEXT_PUBLIC_SUPPORT_URL`에 넣은 뒤 재배포하세요.
 푸터와 게임 페이지에 "MURBA 후원하기" 링크가 나타납니다. 비워 두면 보이지 않습니다.
+
+## 회화집 PDF 판매 (디지털 상품)
+
+1. [Gumroad](https://gumroad.com) 또는 [Lemon Squeezy](https://lemonsqueezy.com)에 가입하고 상품을 만듭니다. (이름 예: *MURBA Travel Korean Phrasebook*, 가격 $5)
+2. 회화집 PDF를 업로드합니다. PDF는 공개 저장소에 올리지 않습니다.
+3. 상품 페이지 주소를 Vercel 환경변수 `NEXT_PUBLIC_PHRASEBOOK_URL`에 넣고 재배포하면, 요금·표현 노트·튜터 페이지에 구매 박스가 나타납니다.
+
+## 디스코드 커뮤니티 만들기
+
+1. 디스코드 앱 → **서버 추가 → 직접 만들기 → 커뮤니티용**, 이름은 `MURBA`
+2. 채널을 만듭니다 (사이트 `/community`에 소개된 이름과 같게):
+   - `#welcome` — 규칙 고정, `#introductions` — 자기소개
+   - `#daily-five` — 오늘의 다섯 문제 결과 공유
+   - `#questions` — 한국어 질문
+   - `#drama-lines` — 드라마·노래 대사 풀이
+   - `#language-exchange` — 언어 교환 상대 찾기
+   - `#off-topic` — 잡담
+3. `#welcome`에 규칙을 고정합니다:
+   > 1. Be kind. Everyone here was a beginner once.
+   > 2. Correct gently, and explain why.
+   > 3. No spam, no selling, no hate.
+   > 4. Keep it about learning, culture and everyday life in Korea.
+4. **서버 설정 → 안전 설정**에서 인증 수준을 "이메일 인증"으로, 미디어 필터를 켜 둡니다.
+5. **초대 → 링크 수정 → 만료: 없음**으로 영구 초대 링크를 만들어 Vercel 환경변수 `NEXT_PUBLIC_DISCORD_URL`에 넣고 재배포합니다.
+
+사이트 안 게시판(구글 로그인·글·댓글)은 디스코드에 사람이 모이면 Supabase를 연결해 이어서 만듭니다.
 
 ## 방문자 통계
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getDictionary } from "../dictionaries";
 import { pageAlternates } from "@/lib/i18n";
+import { PhrasebookOffer } from "@/components/phrasebook-offer";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/pricing">): Promise<Metadata> {
   const { lang } = await params;
@@ -72,6 +73,8 @@ export default async function PricingPage({ params }: PageProps<"/[lang]/pricing
           </button>
         </section>
       </div>
+
+      <PhrasebookOffer t={dict.shop} />
 
       <section className="mt-20">
         <h2 className="font-serif text-3xl">{t.faqTitle}</h2>

@@ -21,8 +21,8 @@ export function SiteHeader({ lang, nav }: { lang: string; nav: Dictionary["nav"]
           <Link href={`/${lang}/phrases`} className="hover:text-accent">
             {nav.phrases}
           </Link>
-          <Link href={`/${lang}/pricing`} className="hover:text-accent">
-            {nav.pricing}
+          <Link href={`/${lang}/community`} className="hover:text-accent">
+            {nav.community}
           </Link>
         </nav>
         <Suspense fallback={null}>
