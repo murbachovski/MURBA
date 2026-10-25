@@ -1,7 +1,9 @@
-// Google AdSense settings. Everything stays off until the publisher ID is set in Vercel,
-// so the site can go live (and be reviewed by AdSense) before ads are approved.
-export const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? ""; // e.g. ca-pub-1234567890123456
+// Google AdSense settings. The publisher ID is public (it appears in every page's source),
+// so MURBA's own ID is the default; NEXT_PUBLIC_ADSENSE_CLIENT can override it.
+export const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-4907615583667816";
 
+// Ad units appear only once their slot IDs (created after AdSense approval) are set.
+// Until then, Auto ads can be switched on from the AdSense dashboard instead.
 export const adSlots = {
   home: process.env.NEXT_PUBLIC_ADSENSE_SLOT_HOME ?? "",
   phrases: process.env.NEXT_PUBLIC_ADSENSE_SLOT_PHRASES ?? "",

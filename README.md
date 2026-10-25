@@ -42,8 +42,8 @@ npm run dev                  # http://localhost:3000
 
 1. 사이트를 먼저 배포하고, 가능하면 **자체 도메인**을 연결합니다. (승인에 유리)
 2. [adsense.google.com](https://adsense.google.com)에서 가입 → 사이트 추가
-3. 게시자 ID(`ca-pub-…`)를 Vercel 환경변수 `NEXT_PUBLIC_ADSENSE_CLIENT`에 넣고 **재배포**
-   → `<head>`에 AdSense 코드와 `google-adsense-account` 메타 태그가 들어가고, `/ads.txt`가 자동 생성됩니다.
+3. 게시자 ID `ca-pub-4907615583667816`은 코드(`src/lib/ads.ts`)에 기본값으로 들어 있습니다.
+   → 모든 페이지 `<head>`에 AdSense 코드와 `google-adsense-account` 메타 태그가 들어가고, `/ads.txt`가 자동 생성됩니다.
 4. AdSense에서 **사이트 소유권 확인 → 검토 요청**
 5. 승인 후 **광고 → 광고 단위 기준 → 디스플레이 광고**를 3개 만들고, 각 슬롯 ID를
    `NEXT_PUBLIC_ADSENSE_SLOT_HOME`, `_PHRASES`, `_TUTOR`에 넣고 재배포
