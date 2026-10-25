@@ -110,7 +110,10 @@
     "examplesTitle": "실제로는 이렇게",
     "tipTitle": "오늘 써 보기",
     "tryIt": "튜터와 연습하기",
-    "languageNote": "표현 노트는 영어로 쓰여 있어요."
+    "languageNote": "표현 노트는 영어로 쓰여 있어요.",
+    "share": "이 노트 공유하기",
+    "copied": "링크를 복사했어요",
+    "askTemplate": "“{ko}”, 자연스럽게 어떻게 써요? 연습할 상황을 하나 주세요."
   },
   "pricing": {
     "title": "요금",

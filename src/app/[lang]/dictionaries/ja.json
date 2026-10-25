@@ -110,7 +110,10 @@
     "examplesTitle": "実際にはこう使う",
     "tipTitle": "今日使ってみる",
     "tryIt": "チューターと練習する",
-    "languageNote": "フレーズノートは英語で書かれています。"
+    "languageNote": "フレーズノートは英語で書かれています。",
+    "share": "このノートを共有",
+    "copied": "リンクをコピーしました",
+    "askTemplate": "「{ko}」を自然に使うには？練習できる場面をひとつください。"
   },
   "pricing": {
     "title": "料金",

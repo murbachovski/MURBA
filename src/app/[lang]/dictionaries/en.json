@@ -186,6 +186,9 @@
     "examplesTitle": "Heard in the wild",
     "tipTitle": "Say it today",
     "tryIt": "Practice this with the tutor",
-    "languageNote": "These notes are written in English."
+    "languageNote": "These notes are written in English.",
+    "share": "Share this note",
+    "copied": "Link copied",
+    "askTemplate": "How do I use “{ko}” naturally? Give me a situation to practice."
   }
 }

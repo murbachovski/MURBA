@@ -59,14 +59,27 @@ AI가 쓴 글을 그대로 올리기보다, 직접 경험과 예문을 덧붙여
 Vercel 대시보드 → 프로젝트 → **Analytics** 탭에서 **Enable**을 누르면 방문자 수, 유입 경로, 국가별 통계가 쌓입니다.
 쿠키를 쓰지 않는 방식이라 별도 동의 배너가 필요 없습니다.
 
+## 구글 검색 등록 (Search Console)
+
+1. [search.google.com/search-console](https://search.google.com/search-console)에서 **URL 접두어**로 `https://murba.vercel.app` 추가
+2. 확인 방법 **HTML 태그**를 고르고, `content="…"` 안의 값만 Vercel 환경변수 `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`에 넣고 재배포 → **확인**
+3. **Sitemaps** 메뉴에 `sitemap.xml` 제출
+
 ## 공유 이미지 (카카오톡·X·인스타그램 미리보기)
 
 링크를 공유하면 사이트 카드와 표현 노트별 카드가 자동으로 붙습니다 (`opengraph-image.tsx`).
 카드에 쓰는 글꼴 `assets/fonts/GowunBatang-Bold-og.ttf`(OFL)는 용량을 줄이려고 라틴 문자와 상용 한글 2,350자만 담았습니다.
 새 표현 노트 제목에 드문 글자가 들어가면 카드에서 빈 칸으로 보일 수 있으니, 그때는 원본 글꼴에서 다시 추려 주세요.
 
-## 비용 메모
+## 비용 메모 · Haiku 전환 기준
 
-튜터는 기본으로 `claude-opus-5-5`를 쓰고 답변을 짧게(effort `low`) 유지합니다.
+튜터는 지금 `claude-opus-5-5`를 쓰고 답변을 짧게(effort `low`) 유지합니다. 초기에는 답변 품질로 첫인상을 잡는 게 중요해서입니다.
+아래 중 하나에 해당하면 "안정 구간"으로 보고 Vercel 환경변수 `CLAUDE_MODEL=claude-haiku-5-5`로 바꾼 뒤 재배포합니다. 코드 수정은 필요 없습니다.
+
+- 한 달 AI 비용(Anthropic 콘솔 → Usage)이 광고 + 구독 수익을 넘을 때
+- 월 방문자가 3,000명을 넘어 사용량이 꾸준해졌을 때
+- 하루 튜터 메시지가 1,000개를 넘을 때
+
+바꾼 뒤 일주일은 튜터 답변을 직접 몇 개 확인해 품질이 괜찮은지 봐 주세요.
 사용자가 늘면 `CLAUDE_MODEL`, `FREE_DAILY_LIMIT`로 비용을 조절할 수 있습니다.
 무료 사용량 제한은 쿠키 기반이라 우회가 가능합니다. 트래픽이 커지면 계정과 서버 측 제한(예: Upstash Redis)을 붙이세요.
