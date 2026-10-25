@@ -11,9 +11,12 @@ export function SiteHeader({ lang, nav }: { lang: string; nav: Dictionary["nav"]
           <span className="font-serif text-2xl font-bold tracking-tight">MURBA</span>
           <span className="font-serif text-sm text-accent">머르바</span>
         </Link>
-        <nav className="flex flex-1 items-center gap-5 text-[15px]">
+        <nav className="flex flex-1 flex-wrap items-center gap-x-5 gap-y-1 text-[15px] whitespace-nowrap">
           <Link href={`/${lang}/tutor`} className="hover:text-accent">
             {nav.tutor}
+          </Link>
+          <Link href={`/${lang}/play`} className="hover:text-accent">
+            {nav.play}
           </Link>
           <Link href={`/${lang}/phrases`} className="hover:text-accent">
             {nav.phrases}

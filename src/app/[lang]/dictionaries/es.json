@@ -7,7 +7,8 @@
     "tutor": "Tutor",
     "phrases": "Frases",
     "pricing": "Precios",
-    "start": "Empieza a hablar"
+    "start": "Empieza a hablar",
+    "play": "Juegos"
   },
   "home": {
     "eyebrow": "No. 01 — Coreano de todos los días",
@@ -189,6 +190,41 @@
   },
   "footer": {
     "line": "Hecho con calma, en Corea.",
-    "privacy": "Privacidad"
+    "privacy": "Privacidad",
+    "support": "Apoya MURBA"
+  },
+  "play": {
+    "title": "Juegos",
+    "lead": "Juegos cortos para esos cinco minutos libres. Sin registro, sin instalar nada.",
+    "supportLine": "MURBA es gratis y lo hace un equipo muy pequeño. Si te ayuda, puedes invitarnos a un café.",
+    "daily": {
+      "name": "Cinco del día",
+      "blurb": "Cinco expresiones coreanas, las mismas para todos hoy. Adivina qué significa de verdad cada una.",
+      "cta": "Jugar las cinco de hoy",
+      "question": "¿Qué significa de verdad?",
+      "correct": "Correcto.",
+      "wrong": "Casi. Significa:",
+      "readNote": "Leer la nota",
+      "next": "Siguiente",
+      "finish": "Ver mi puntuación",
+      "score": "Acertaste {n} de 5.",
+      "streak": "Días seguidos: {n}",
+      "share": "Compartir mi resultado",
+      "copied": "Copiado: pégalo donde quieras",
+      "comeBack": "Preguntas nuevas cada día a las 9:00 de Corea (medianoche UTC).",
+      "doneToday": "Ya jugaste hoy. Así te fue."
+    },
+    "hangul": {
+      "name": "Bloques de hangul",
+      "blurb": "Cada sílaba coreana es un pequeño bloque de letras. Toca las piezas en orden y arma palabras reales.",
+      "cta": "Empezar a construir",
+      "instructions": "Toca las letras en orden de lectura: arriba a la izquierda, luego a la derecha o abajo.",
+      "mistakes": "Toques fallidos: {n}",
+      "next": "Siguiente palabra",
+      "finish": "Terminar",
+      "result": "{n} palabras armadas, {m} toques fallidos.",
+      "again": "Jugar otra vez",
+      "hint": "Significa:"
+    }
   }
 }
